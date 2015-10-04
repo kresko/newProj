@@ -1,0 +1,273 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	position: relative;
+}
+
+.fire {
+	background-image: url("../images/temari.jpg"); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.water {
+	background-image: url("../images/naruto.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+.wind {
+	background-image: url("../images/temari.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.earth {
+	background-image: url("../images/temari.jpg"); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* -------------------------Sidebar------------------------------------*/
+
+aside {
+	width: 250px;
+	height: 100%;
+	background-color: #222;
+	position: fixed;
+	left: -250px;
+}
+
+aside ul {
+	border-bottom: 1px solid #666;
+	padding-top: 55px;
+}
+
+aside li {
+	list-style: none;
+	line-height: 50px;
+	border-top: 1px solid #666;
+}
+
+aside a {
+	color: #FFF;
+	width: 120px;
+	display: block;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-decoration: none;
+	text-align: center;
+	padding: 0 65px;
+}
+
+aside a:hover {
+	background-color: #529DFF;
+}
+
+.button-close {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 2em;
+	padding: 10px 0 0 15px;
+	cursor: pointer;
+}
+
+.button-open {
+	width: 40px;
+	height: 40px;
+	background-color: #222;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 6px;
+	border-bottom-right-radius: 5px;
+}
+
+/*-------------------------------Sidebar------------------------------*/ 
+
+/*-------------------------------Slider-------------------------------*/
+
+#slider-nav {  
+	margin-top: 10px;
+	display: none;
+}
+
+#slider-nav button {
+	padding: 5px;
+	margin-right: 10px;
+	margin-left: 190px;
+	cursor: pointer;
+
+}
+
+.slider {
+	width: inherit;
+	height: 350px;
+	overflow: scroll;
+}
+
+.slider ul {
+	width: 10000px;
+	list-style: none;
+}
+
+.slider li {
+	float: left;
+}#slider-nav {  
+	margin-top: 10px;
+	display: none;
+}
+
+#slider-nav button {
+	padding: 5px;
+	margin-right: 10px;
+	margin-left: 190px;
+	cursor: pointer;
+
+}
+
+.slider {
+	width: inherit;
+	height: 350px;
+	overflow: scroll;
+}
+
+.slider ul {
+	width: 10000px;
+	list-style: none;
+}
+
+.slider li {
+	float: left;
+}
+
+/*---------------------------------Slider---------------------------------*/
+
+/*--------Section and other parts of site of the index.html----------------*/
+
+section {
+	padding: 20px 120px;
+}
+
+article {
+	background-color: #222;
+	color: #FFF;
+	padding: 10px 20px;
+	font-family: sans-serif;
+	border-radius: 5px;
+}
+
+article h1 {
+	padding-bottom: 20px;
+	font-size: 28px;
+}
+
+article p {
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+/*--------Section and other parts of site of the index.html----------------*/
+
+/*--------Article and other parts of site of the news.html-----------------*/
+.water-dragon {
+	margin: 0 120px;
+}
+
+.backToTop {
+	color: #FFF;
+	background-color: #222;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px 7px;
+	font-family: sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	position: absolute;
+	left: 120px;
+	border: 1px solid #444;
+	border-radius: 5px;
+}
+
+.water-p {
+	padding-bottom: 20px; 
+}
+
+/*--------Article and other parts of site of the news.html-----------------*/
+
+/*--------Article and other parts of site of the contact.html--------------*/
+
+.wind-rasengan {
+	margin: 0 120px;
+	margin-bottom: 30px;
+}
+
+/*--------Article and other parts of site of the contact.html--------------*/
+
+/*--------Article and other parts of site of the blog.html-----------------*/
+
+.earth-mudwall {
+	width: 600px;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+#contact {
+	background: #222;
+	padding: 1em 2em;
+	position: relative;
+}
+
+.js #contact {
+	position: absolute;
+	top: 0;
+	width: inherit;
+	display: none;
+}
+
+#contact h2 { 
+	margin-top: 0; 
+	color: #FFF;
+}
+
+#contact ul { 
+	padding: 0; 
+}
+
+#contact li { 
+		list-style: none;
+		margin-bottom: 1em;
+}
+
+/* Close button on form */
+.close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-weight: bold;
+	font-family: sans-serif;
+	cursor: pointer;
+	color: #FFF;
+	}	
+
+/* Form inputs */
+input, textarea { 
+	width: 100%; 
+	line-height: 2em;
+}
+input[type=submit] { 
+	width: auto;  
+}
+label { 
+	display: block; 
+	text-align: left; 
+}
+
+/*--------Article and other parts of site of the blog.html-----------------*/
