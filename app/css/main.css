@@ -11,24 +11,28 @@ body{
 	background-image: url("../images/temari.jpg"); 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 .water {
 	background-image: url("../images/naruto.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
+	background-size: cover;
 }
 
 .wind {
 	background-image: url("../images/temari.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 .earth {
 	background-image: url("../images/temari.jpg"); 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 /* -------------------------Sidebar------------------------------------*/
@@ -152,11 +156,10 @@ aside a:hover {
 
 /*--------Section and other parts of site of the index.html----------------*/
 
-section {
-	padding: 20px 120px;
-}
 
 article {
+	margin: 0 auto;
+	width: 747px;
 	background-color: #222;
 	color: #FFF;
 	padding: 10px 20px;
@@ -178,7 +181,7 @@ article p {
 
 /*--------Article and other parts of site of the news.html-----------------*/
 .water-dragon {
-	margin: 0 120px;
+	margin: 0 auto;
 }
 
 .backToTop {
@@ -205,7 +208,7 @@ article p {
 /*--------Article and other parts of site of the contact.html--------------*/
 
 .wind-rasengan {
-	margin: 0 120px;
+	margin: 0 auto;
 	margin-bottom: 30px;
 }
 
@@ -213,9 +216,9 @@ article p {
 
 /*--------Article and other parts of site of the blog.html-----------------*/
 
-.earth-mudwall {
+.earth-wallmud {
 	width: 600px;
-	margin: auto;
+	margin: 0 auto;
 	font-family: sans-serif;
 }
 
