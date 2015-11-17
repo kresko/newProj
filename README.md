@@ -1,2 +1,2 @@
 # newProj
-Something new
+Simple site with few jQuery components.
